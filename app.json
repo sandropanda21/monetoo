@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "monetoo",
+    "slug": "monetoo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icons/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/icons/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00BF63"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/icons/logo.png",
+        "backgroundColor": "#00BF63"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/icons/logo.png"
+    }
+  }
+}
