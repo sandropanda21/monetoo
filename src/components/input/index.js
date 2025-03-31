@@ -1,10 +1,20 @@
-import React from "react";
 import {View, TextInput, Image} from "react-native"
-import styled from "styled-components/native";
+import styles from "./style"
 
-export default function Input (props) {
+
+const icons = {
+    person: require("../../assets/icons/person.png"),
+    mail: require("../../assets/icons/mail.png"),
+    visibility: require("../../assets/icons/visibility.png")
+}
+
+export default function Input({icon, ...props}) {
     return (
         <>
+            <View style={styles.inputContainer}>
+                <TextInput {...props} style={styles.inputField} placeholderTextColor={"#1e1e1e"}/>
+                <Image source={icons[icon]}/>
+            </View>
         </>
     )
 }

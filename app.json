@@ -4,11 +4,11 @@
     "slug": "monetoo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/icons/logo.png",
+    "icon": "./src/assets/images/logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./src/assets/icons/logo.png",
+      "image": "./src/assets/images/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#00BF63"
     },
@@ -17,12 +17,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./src/assets/icons/logo.png",
+        "foregroundImage": "./src/assets/images/logo.png",
         "backgroundColor": "#00BF63"
       }
     },
     "web": {
-      "favicon": "./src/assets/icons/logo.png"
+      "favicon": "./src/assets/images/logo.png"
     }
   }
 }
