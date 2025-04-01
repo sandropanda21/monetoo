@@ -4,7 +4,7 @@ import {useEffect} from 'react';
 import { createStackNavigator } from "@react-navigation/stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
-import { View, Text, StatusBar, TextInput } from "react-native";
+import { View, Text, StatusBar } from "react-native";
 import Input from "./components/input/index.js"
 import Button from "./components/button/index.js"
 import Banner from "./components/banner/index.js"
